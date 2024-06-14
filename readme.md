@@ -19,7 +19,7 @@ npm i eppicons
 "styles": [
   "src/styles.css",
   "node_modules/icons/dist/epp-icons.css"
-],
+]
 ```
 
     2. Using Icons:
