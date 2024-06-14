@@ -1,6 +1,6 @@
 {
-  "name": "icons",
-  "version": "1.0.0",
+  "name": "eppicons",
+  "version": "1.0.1",
   "description": "Icon libary used in the eSports App",
   "main": "dist/epp-icons.css",
   "scripts": {
