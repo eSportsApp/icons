@@ -1,18 +1,37 @@
 {
-  "name": "eppicons",
-  "version": "1.0.2",
-  "description": "Icon libary used in the eSports App",
+  "name": "@esportsapp/icons",
+  "version": "1.0.0",
+  "description": "Icon library used in the eSports App",
   "main": "dist/epp-icons.css",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
-    "build": "node src/generate-font.js"
+    "build": "node src/generate-font.js",
+    "test": "jest",
+    "prepublishOnly": "npm run test && npm run build",
+    "postinstall": "echo 'Package installed successfully!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eSportsApp/icons.git"
   },
   "keywords": [
     "icons"
   ],
   "author": "Fabian Maier",
+  "publisher": "eSportsApp",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eSportsApp/icons/issues"
+  },
+  "homepage": "https://github.com/eSportsApp/icons#readme",
   "dependencies": {
     "fast-glob": "^3.3.2",
     "webfont": "^11.2.26"
-  }
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
+  },
+  "peerDependencies": {},
+  "private": false
 }
