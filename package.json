@@ -1,6 +1,6 @@
 {
   "name": "@esportsapp/icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Icon library used in the eSports App",
   "main": "dist/epp-icons.css",
   "module": "src/index.js",
