@@ -1,13 +1,13 @@
 # eSports App icons Libary
 
 Icon libary used in the [eSports App](https://esportsapp.gg).
-
+Not fully working jet (currently at 2 icons more coming soon)
 ## Installation
 
 To integrate this icon library into your Angular project, run the following command:
 
 ```bash
-npm i eppicons
+npm i @esportsapp/icons
 ```
 
 # Usage in Angular
